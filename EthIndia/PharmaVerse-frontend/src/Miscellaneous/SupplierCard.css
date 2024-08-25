@@ -1,0 +1,35 @@
+/* Add this CSS in your CSS file */
+@media (max-width: 1345px) {
+    .MuiCardActions-root > .MuiGrid-root {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .MuiCardActions-root > .MuiGrid-root > .MuiButton-root {
+      margin: 8px 0;
+      white-space: normal; /* Add this property */
+    }
+  }
+  
+  /* Display 1 card per row for screens up to 768px width */
+  @media (max-width: 768px) {
+    .supplier-item {
+      width: 100%;
+    }
+  }
+  
+  /* Display 2 cards per row for screens between 769px and 1345px width */
+  @media (min-width: 769px) and (max-width: 1345px) {
+    .supplier-item {
+      width: calc(50% - 5px); /* Adjust this value based on your gap */
+    }
+  }
+  
+  /* Display 3 cards per row for screens above 1345px width */
+  @media (min-width: 1346px) {
+    .supplier-item {
+      width: calc(33.33% - 7.5px); /* Adjust this value based on your gap */
+    }
+  }
+    

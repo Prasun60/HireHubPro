@@ -1,0 +1,16 @@
+/* Add these CSS rules to achieve alternate alignment */
+.timeline-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Style for odd timeline elements (align left) */
+  .vertical-timeline-element:nth-child(odd) .vertical-timeline-element-content {
+    text-align: left;
+  }
+  
+  /* Style for even timeline elements (align right) */
+  .vertical-timeline-element:nth-child(even) .vertical-timeline-element-content {
+    text-align: right;
+  }
+  

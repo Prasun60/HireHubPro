@@ -1,0 +1,103 @@
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px; 
+    justify-content: space-evenly;
+    margin: 0 auto;
+
+}
+
+@media (max-width: 960px) {
+    .card-container {
+        justify-content: center;
+    }
+}
+
+.card-container .MuiCard-root {
+    position: relative;
+    transition: transform 0.3s, box-shadow 0.3s, border 0.3s; 
+    border: 1px solid linear-gradient( rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);; 
+    border-radius: 24px;
+    overflow: hidden; 
+  }
+  
+  .card-container .MuiCard-root::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    z-index: -1;
+    background: linear-gradient(45deg, rgba(0, 128, 0, 0.5), rgba(0, 128, 0, 0));
+    border-radius: 24px;
+    transition: opacity 0.3s, border-color 0.3s; 
+    opacity: 0;
+    border: 2px solid transparent; 
+  }
+  
+  .card-container .MuiCard-root:hover {
+    transform: translateY(-5px) scale(1.02); 
+    box-shadow: 0px 15px 30px rgba(0, 128, 0, 0.7); 
+    cursor: pointer;
+    border-color: rgba(0, 128, 0, 0.7); 
+  }
+  
+  .card-container .MuiCard-root:hover::before {
+    opacity: 1; 
+    border-color: rgba(0, 128, 0, 0.7); 
+  }
+  
+
+
+
+.dialog-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px; 
+  justify-content: space-evenly;
+  margin: 0 auto;
+
+}
+
+@media (max-width: 960px) {
+  .dialog-container {
+      justify-content: center;
+  }
+}
+
+.dialog-container .MuiCard-root {
+  position: relative;
+  transition: transform 0.3s, box-shadow 0.3s, border 0.3s; 
+ 
+  border-radius: 24px;
+  overflow: hidden; 
+}
+
+.dialog-container .MuiCard-root::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  z-index: -1;
+
+  border-radius: 24px;
+  transition: opacity 0.3s, border-color 0.3s; 
+  opacity: 0;
+  border: 2px solid transparent; 
+}
+
+.dialog-container .MuiCard-root:hover {
+  transform: translateY(-5px) scale(1.02); 
+ 
+  cursor: pointer;
+
+}
+
+.dialog-container .MuiCard-root:hover::before {
+  opacity: 1; 
+
+}

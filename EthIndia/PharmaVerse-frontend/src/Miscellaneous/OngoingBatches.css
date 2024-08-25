@@ -1,0 +1,106 @@
+.allcards {
+  margin-top: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card {
+  width: 190px;
+  height: 254px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  position: relative;
+}
+
+.remove-when-use {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  color: black;
+  top: 85px;
+  font-weight: bold;
+}
+
+.details > p {
+  font-size: 0.8em;
+  margin-top: 0.5em;
+}
+
+.details > label {
+  font-weight: bold;
+}
+
+.details {
+  color: white;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0;
+  height: 2.6em;
+  transition: height 0.5s ease-in-out;
+  padding: 0.6em;
+  overflow: hidden;
+}
+
+.card:hover > .details {
+  height: 6.7em;
+}
+
+.card {
+  width: 190px;
+  height: 254px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  border-radius: 10px; /* Rounded corners */
+  overflow: hidden; /* Hide overflow content */
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05); /* Enlarge on hover */
+}
+
+.details {
+  color: white;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Darken background */
+  position: absolute;
+  bottom: 0;
+  height: 3em; /* Increased height for more content */
+  transition: height 0.5s ease-in-out, background-color 0.3s ease-in-out; /* Add background transition */
+  padding: 1em; /* Increased padding */
+  overflow: hidden;
+}
+
+.details p {
+  font-size: 1em; /* Increase font size */
+  margin: 0; /* Reset margin */
+}
+
+.details div {
+  font-size: 0.9em; /* Adjust font size for material details */
+  margin-top: 0.3em; /* Adjust margin for material details */
+}
+
+.remove-when-use img {
+  border: 2px solid #fff; /* Add a white border */
+  width: 100%;
+  height: auto;
+  filter: grayscale(100%); /* Grayscale the image when not in use */
+}
+
+.card:hover .remove-when-use img {
+  filter: none; /* Remove grayscale on hover */
+}
+
+/* new */
+
+.details div {
+  font-size: 0.9em;
+  margin-top: 0.3em;
+  display: flex;
+  align-items: center;
+}

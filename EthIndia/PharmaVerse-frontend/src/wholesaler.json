@@ -1,0 +1,62 @@
+[
+    {
+      "id": "W123",
+      "name": "Wholesaler A",
+      "address": "123 Main Street, City",
+      "image": "/path/to/wholesalerA.jpg"
+    },
+    {
+      "id": "W124",
+      "name": "Wholesaler B",
+      "address": "456 Elm Avenue, Town",
+      "image": "/path/to/wholesalerB.jpg"
+    },
+    {
+      "id": "W125",
+      "name": "Wholesaler C",
+      "address": "789 Oak Lane, Village",
+      "image": "/path/to/wholesalerC.jpg"
+    },
+    {
+      "id": "W126",
+      "name": "Wholesaler D",
+      "address": "101 Pine Road, Hamlet",
+      "image": "/path/to/wholesalerD.jpg"
+    },
+    {
+      "id": "W127",
+      "name": "Wholesaler E",
+      "address": "111 Maple Street, Suburb",
+      "image": "/path/to/wholesalerE.jpg"
+    },
+    {
+      "id": "W128",
+      "name": "Wholesaler F",
+      "address": "222 Cedar Avenue, District",
+      "image": "/path/to/wholesalerF.jpg"
+    },
+    {
+      "id": "W129",
+      "name": "Wholesaler G",
+      "address": "333 Elm Avenue, Town",
+      "image": "/path/to/wholesalerG.jpg"
+    },
+    {
+      "id": "W130",
+      "name": "Wholesaler H",
+      "address": "444 Oak Lane, Village",
+      "image": "/path/to/wholesalerH.jpg"
+    },
+    {
+      "id": "W131",
+      "name": "Wholesaler I",
+      "address": "555 Pine Road, Hamlet",
+      "image": "/path/to/wholesalerI.jpg"
+    },
+    {
+      "id": "W132",
+      "name": "Wholesaler J",
+      "address": "666 Maple Street, Suburb",
+      "image": "/path/to/wholesalerJ.jpg"
+    }
+  ]

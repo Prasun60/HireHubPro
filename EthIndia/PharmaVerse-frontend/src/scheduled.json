@@ -1,0 +1,162 @@
+[
+  {
+    "manufacturer_id": "A1235",
+    "name": "ABCD Pharma",
+    "batchpic": "fsasas",
+    "materialname": ["a", "b", "d"],
+    "materialquantity": [1, 2, 3],
+    "score": 2,
+    "transporter": [
+      {
+        "id": "T123",
+        "name": "Transporter B",
+        "address": "123 Main Street, City",
+        "image": "/path/to/transporterA.jpg"
+      }
+    ],
+    "inspector": [
+      {
+        "id": "I123",
+        "name": "Inspector A",
+        "address": "123 Main Street, City",
+        "image": "/path/to/inspectorA.jpg"
+      }
+    ],
+    "wholesaler": [
+      {
+        "id": "W123",
+        "name": "Wholesaler A",
+        "address": "123 Main Street, City",
+        "image": "/path/to/wholesalerA.jpg"
+      }
+    ]
+  },
+  {
+    "manufacturer_id": "A1235",
+    "name": "ABCD Pharma",
+    "batchpic": "gsasas",
+    "materialname": ["a", "c", "d"],
+    "materialquantity": [1, 2, 3],
+    "score": 3,
+    "transporter": [
+      {
+        "id": "T124",
+        "name": "Transporter B",
+        "address": "123 Main Street, City",
+        "image": "/path/to/transporterA.jpg"
+      }
+    ],
+    "inspector": [
+      {
+        "id": "I123",
+        "name": "Inspector A",
+        "address": "123 Main Street, City",
+        "image": "/path/to/inspectorA.jpg"
+      }
+    ],
+    "wholesaler": [
+      {
+        "id": "W123",
+        "name": "Wholesaler A",
+        "address": "123 Main Street, City",
+        "image": "/path/to/wholesalerA.jpg"
+      }
+    ]
+  },
+  {
+    "manufacturer_id": "A1235",
+    "name": "ABCD Pharma",
+    "batchpic": "hsasas",
+    "materialname": ["a", "b", "c"],
+    "materialquantity": [1, 2, 3],
+    "score": 1,
+    "transporter": [
+      {
+        "id": "T123",
+        "name": "Transporter A",
+        "address": "123 Main Street, City",
+        "image": "/path/to/transporterA.jpg"
+      }
+    ],
+    "inspector": [
+      {
+        "id": "I123",
+        "name": "Inspector A",
+        "address": "123 Main Street, City",
+        "image": "/path/to/inspectorA.jpg"
+      }
+    ],
+    "wholesaler": [
+      {
+        "id": "W123",
+        "name": "Wholesaler A",
+        "address": "123 Main Street, City",
+        "image": "/path/to/wholesalerA.jpg"
+      }
+    ]
+  },
+  {
+    "manufacturer_id": "A1235",
+    "name": "ABCD Pharma",
+    "batchpic": "isasas",
+    "materialname": ["c", "b", "d"],
+    "materialquantity": [1, 2, 3],
+    "score": 2,
+    "transporter": [
+      {
+        "id": "T123",
+        "name": "Transporter A",
+        "address": "123 Main Street, City",
+        "image": "/path/to/transporterA.jpg"
+      }
+    ],
+    "inspector": [
+      {
+        "id": "I123",
+        "name": "Inspector A",
+        "address": "123 Main Street, City",
+        "image": "/path/to/inspectorA.jpg"
+      }
+    ],
+    "wholesaler": [
+      {
+        "id": "W123",
+        "name": "Wholesaler A",
+        "address": "123 Main Street, City",
+        "image": "/path/to/wholesalerA.jpg"
+      }
+    ]
+  },
+  {
+    "manufacturer_id": "A1235",
+    "name": "ABCD Pharma",
+    "batchpic": "jsasas",
+    "materialname": ["a", "b", "d"],
+    "materialquantity": [1, 2, 3],
+    "score": 3,
+    "transporter": [
+      {
+        "id": "T123",
+        "name": "Transporter A",
+        "address": "123 Main Street, City",
+        "image": "/path/to/transporterA.jpg"
+      }
+    ],
+    "inspector": [
+      {
+        "id": "I123",
+        "name": "Inspector A",
+        "address": "123 Main Street, City",
+        "image": "/path/to/inspectorA.jpg"
+      }
+    ],
+    "wholesaler": [
+      {
+        "id": "W123",
+        "name": "Wholesaler A",
+        "address": "123 Main Street, City",
+        "image": "/path/to/wholesalerA.jpg"
+      }
+    ]
+  }
+]

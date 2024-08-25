@@ -1,0 +1,15 @@
+/* Supplier.css */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px; 
+    justify-content: space-evenly;
+    margin: 0 auto;
+
+}
+
+@media (max-width: 960px) {
+    .card-container {
+        justify-content: center;
+    }
+}

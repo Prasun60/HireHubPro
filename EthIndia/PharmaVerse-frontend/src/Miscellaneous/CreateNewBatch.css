@@ -1,0 +1,75 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 30px;
+  margin-top: 2rem;
+  /* border-radius: 20px; */
+}
+
+table,
+th,
+td {
+  border: 1px solid #ccc; /* Use a subtle gray color for borders */
+  /* border-radius: 24px; */
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+  /* border-radius: 24px; */
+}
+
+th {
+  background-color: #585858; /* Use a light gray background color for headers */
+  font-weight: bold;
+  /* border-radius: 24px; */
+}
+
+tr:hover {
+  background-color: #292929; /* Use a slightly darker gray for hover effect */
+}
+
+input[type="number"] {
+  width: 50px;
+  padding: 5px; /* Add padding for a more classic input appearance */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.button-container {
+  display: flex;
+  justify-content: center; /* Center the button horizontally */
+  margin-top: 1rem;
+}
+.button0 {
+  width: 9em;
+  height: 3em;
+  border-radius: 30em;
+  font-size: 15px;
+  font-family: inherit;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  /* box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff; */
+  background-color: #02ff52;
+  cursor: pointer;
+}
+
+.button0::before {
+  content: "";
+  width: 0;
+  height: 3em;
+  border-radius: 30em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+
+.button0:hover::before {
+  width: 9em;
+}
