@@ -1,4 +1,4 @@
-# JobEra - Hire and Get Hired (A full Stack Go Job application)
+# HireHubPro - Hire and Get Hired (A full Stack Go Job application)
 
 Built with the Go Lang TypeScript React
 
