@@ -28,6 +28,14 @@ Built with the Go Lang TypeScript React
 - ☂️ Dockerize the application
 - 🎁 ...much more
 
+## Deployed Project Link
+
+```
+https://jobera-go.vercel.app/
+```
+
+
+
 ## Getting started
 
 You can Find the backend of this project :
