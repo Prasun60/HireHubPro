@@ -6,7 +6,6 @@ Built with the Go Lang TypeScript React
 
 
 
-
 ## Features
 
 - 🛠️ Full stack Job project with GO Lang
